@@ -1,14 +1,16 @@
 <template>
   <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-full.svg"
-    >
+    <main-logo></main-logo>
   </q-page>
 </template>
 
 <script>
+import MainLogo from '../components/MainLogo'
+
 export default {
-  name: 'PageIndex'
+  name: 'PageIndex',
+  components: {
+    MainLogo
+  }
 }
 </script>
